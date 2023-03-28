@@ -1,0 +1,26 @@
+.main{
+    border: solid 1px #808080;
+    padding: 20px 15px;
+    &:nth-child(odd){
+        background-color: #d3d3d3;
+    }
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textCol{
+    h4{
+        margin: 0;
+    }
+}
+
+.buttonsCol{
+    display: flex;
+    justify-content: space-between;
+    button{
+        margin: 0 5px;
+    }
+}
